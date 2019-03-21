@@ -1,5 +1,17 @@
 jQuery(function () {
 
+    // owl carousel
+    jQuery('.owl-carousel').owlCarousel({
+        items: 1,
+        loop: true,
+        nav: true,
+        navText: ['',''],
+        autoplay: true,
+        slideSpeed : 2000,
+        autoplaySpeed: 2000,
+        animateOut: 'fadeOut'
+    });
+
     // Show tel number element on click
     jQuery('.js-show-tel').on('click', function () {
         var element = jQuery(this),
@@ -26,24 +38,6 @@ jQuery(function () {
             label: window.location.href,
             value: 3000
         });
-    });
-
-    // owl carousel
-    jQuery('.owl-carousel').owlCarousel({
-        loop:true,
-        margin:10,
-        nav:true,
-        responsive:{
-            0:{
-                items:1
-            },
-            600:{
-                items:3
-            },
-            1000:{
-                items:5
-            }
-        }
     });
 
     // Scrolling anchors

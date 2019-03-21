@@ -1,0 +1,111 @@
+#main-menu {
+  li {
+    @media (max-width: 768px) {
+      &:last-of-type {
+        .nav-link {
+          border-bottom-width: 1px;
+        }
+      }
+    }
+    @media (min-width: 768px) {
+      &:last-of-type {
+        .nav-link {
+          border-right-width: 1px;
+        }
+      }
+    }
+  }
+
+  .nav-link {
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    background-color: rgb(255, 255, 255);
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-color: rgb(191, 191, 191);
+    transition: all 0.25s ease-in 0s;
+    font-size: 14px;
+    font-family: Arial;
+    font-weight: 800;
+    text-decoration: none;
+    color: #333200;
+    @media (max-width: 768px) {
+      border-bottom-width: 0;
+    }
+    @media (min-width: 768px) {
+      border-right-width: 0;
+    }
+
+    &:hover {
+      background-color: #666600;
+      color: white;
+    }
+  }
+
+  .active {
+    .nav-link {
+      background-color: #666600;
+      color: white;
+    }
+  }
+
+  a.nav-link.dropdown-toggle {
+    padding-right: 20px;
+  }
+
+  ul.dropdown-menu {
+    border-radius: 0;
+    padding: 0;
+    border-color: transparent;
+    border-width: 0;
+    margin-top: 0;
+
+    li {
+      display: flex;
+      flex-direction: column;
+    }
+
+    a.nav-link {
+      width: 100%;
+      border-color: #333200;
+      border-right: 1px solid #333200 !important;
+      display: block;
+    }
+
+    li {
+      a.nav-link {
+        border-bottom-width: 0px;
+      }
+
+      &:last-of-type {
+        a.nav-link {
+          border-bottom: 1px solid #333200;
+        }
+      }
+    }
+  }
+
+  .navbar-toggler-icon {
+    color: #666600;
+  }
+}
+
+.caret {
+  display: none;
+}
+
+.dropdown-toggle::after {
+  content: "";
+  font-family: "FontAwesome";
+  font-size: 0.8em;
+  line-height: 0.8em;
+  border: 0;
+  vertical-align: inherit;
+}

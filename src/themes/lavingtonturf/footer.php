@@ -8,15 +8,15 @@
  */
 ?>
 
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12">
-                Footer here
-            </div>
-        </div>
+<footer></footer>
+<div class="row brandfooter">
+    <div class="container container-fixed">
+        <div class="col col-md-8 col-lg-8 col-sm-12"> Copyright Lavington Turf Farms Ltd. <?php echo date("Y"); ?></div>
     </div>
-</footer>
+</div>
+</div>
+</div>
+</div>
 
 <?php wp_footer(); ?>
 

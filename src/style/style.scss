@@ -1,21 +1,26 @@
+*:focus {
+  outline: none;
+}
+
 // Bootstrap
 @import "bootstrap-custom";
 
 // Owl library
 @import "../../node_modules/owl.carousel/dist/assets/owl.carousel.css";
+//@import "../../node_modules/owl.carousel/dist/assets/owl.theme.default.css";
 
 // Base
-@import "base/typography";
-@import "base/global";
+//@import "base/typography";
+//@import "base/global";
 
 // Layouts
-@import "layouts/landing-pages";
-@import "layouts/header";
-@import "layouts/content";
-@import "layouts/footer";
+//@import "layouts/landing-pages";
+@import "layouts/nav";
+//@import "layouts/content";
+//@import "layouts/footer";
 @import "layouts/pages";
-@import "layouts/form";
+//@import "layouts/form";
 
 // Components
-@import "components/button";
+//@import "components/button";
 

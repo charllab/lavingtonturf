@@ -1,262 +1,124 @@
-.section {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  @include media-breakpoint-up(lg) {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+.spr-page {
+  h2 {
+    background-color: rgb(102, 102, 0);
+    padding-left: 10px;
+    font-size: 18px;
+    line-height: 1.4em;
+    letter-spacing: 0em;
+    margin-bottom: 20px;
+    font-family: Arial;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    margin-top: 0;
   }
-}
 
-#index-mainbanner {
-  background-color: $bgcolor-primary;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  padding-top: 11rem;
-  padding-bottom: 11rem;
-
-  .h1 {
-    margin-bottom: 3rem;
+  h4 {
+    padding-left: 10px;
+    font-weight: 800;
+    margin-top: 0;
+    margin-bottom: 8px;
   }
-}
-
-.opposite-widget {
-  @include media-breakpoint-up(md) {
-    padding-right: 30px;
-  }
-}
-
-#index-services-bg,
-#sidebarwidget-list,
-#serives-page-block {
 
   ul {
+    margin-bottom: 34px;
+  }
 
-    padding: 0 0 0 .25rem;
-    font-size: 90%;
+  p {
+    padding-left: 10px;
+    margin-bottom: 24px;
+    margin-top: 0;
+    line-height: 18px;
+  }
 
-    li {
-      list-style: none;
-      padding-left: 1.5rem;
-      position: relative;
-      margin-bottom: .5rem;
+  li {
+    margin-bottom: 5px;
+  }
 
-      &:before {
-        content: "\f00c";
-        font-family: "Font Awesome 5 Free";
-        color: $green;
-        font-weight: 900;
-        position: absolute;
-        left: 0;
-        top: .25rem;
-        font-size: 80%;
-      }
+  .spr-image {
+    border: 10px solid #666600;
+    @media (max-width: 768px) {
+      margin-bottom: 0;
     }
+  }
+
+  .spottext {
+    line-height: 1.5;
   }
 }
 
-.sidebarwidget-block {
-  div {
-    background-color: #f1f1f1;
-    border: 1px solid #dfdfdf;
-    padding: 2rem;
-    @include media-breakpoint-up(lg) {
-      margin-left: 1rem;
-    }
-
-    .btn {
-      margin-top: 1rem;
-    }
+.owl-carousel {
+  margin-bottom: 10px;
+  @media (min-width: 768px) {
+    margin-bottom: 30px;
   }
-
 }
 
-#index-services-bg,
-#serives-page-block {
-  @include media-breakpoint-down(lg) {
-    background-image: none !important;
+.owl-theme .owl-nav {
+  position: absolute;
+  top: 35%;
+  top: calc(50% - 25px);
+  color: white;
+  font-size: 60px;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+
+  button {
+    min-width: auto;
+    outline: none;
   }
-  @include media-breakpoint-up(xl) {
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+  width: 50px;
+  height: 50px;
+  background: transparent url('../images/arrows.png') no-repeat center left;
+  background-size: 100px;
+
+  &:hover {
     background-color: transparent;
-    background-repeat: no-repeat;
-    background-position: 128% 50%;
-  }
-  @include media-breakpoint-up(lg) {
-    background-position: 102% 50%;
-    background-size: 50%;
-  }
-  @include media-breakpoint-up(xxl) {
-    background-position: center right;
-    background-size: auto;
-    max-width: 1440px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  ul {
-    @include media-breakpoint-up(md) {
-      columns: 2;
-      column-gap: 2rem;
-    }
   }
 }
 
-.textured-bg {
-  background: #f8f8f8 url('../images/texture-pattern.png') repeat center;
-  background-size: 15%;
-}
+.owl-carousel .owl-nav button.owl-next {
+  width: 50px;
+  height: 50px;
+  background: transparent url('../images/arrows.png') no-repeat center right;
+  background-size: 100px;
 
-#index-cta {
-  background: $bgcolor-primary url('../images/footer-ctabanner.jpg') no-repeat center;
-  background-size: cover;
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-
-  p {
-    margin-bottom: 2rem;
+  &:hover {
+    background-color: transparent;
   }
 }
 
-.services-row {
-  margin-bottom: 2rem;
-  @include media-breakpoint-up(md) {
-    margin-bottom: 4rem;
-  }
-}
+.owl-dots {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 50px;
 
-.service-card {
-  margin-bottom: 2rem;
-
-  @include media-breakpoint-up(md) {
+  button {
     margin-bottom: 0;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-  }
-
-  img {
-    margin-bottom: 1rem;
-  }
-
-  div {
-
-    background-color: white;
-    padding: 1.5rem;
-
-    @include media-breakpoint-only(md) {
-      padding: 1rem;
-    }
-
-    @include media-breakpoint-up(md) {
-      display: flex;
-      flex-direction: column;
-      height: 100%;
-    }
-
-    p {
-      margin-bottom: 2rem;
-      font-size: .8885rem;
-    }
-
-    a {
-      margin-top: auto;
-      align-self: start;
-    }
-  }
-}
-
-.ourvalues-row {
-  p {
-    margin-bottom: 3rem;
-  }
-}
-.ourvalues-pg  {
-    margin-top: 2rem;
-  @include media-breakpoint-up(lg) {
     margin-top: 1rem;
+    outline: none;
+    min-width: auto;
+    min-width: auto;
+    width: auto;
   }
 }
 
-.valuesblock-row {
-  .values-card {
-
-    color: white;
-    background-color: $values-bg-dark;
-    padding: 1.5rem;
-
-    margin-bottom: 1rem;
-
-    @include media-breakpoint-up(lg) {
-      margin-bottom: 0;
-      display: flex;
-      flex-direction: column;
-      height: 100%;
-    }
-
-    @include media-breakpoint-up(xl) {
-      padding: 3rem 2.5rem;
-    }
-
-    hr {
-      margin-top: -.5rem;
-      background-color: white;
-    }
-
-    p,
-    li {
-
-      font-size: .8885rem;
-    }
-
-    ul {
-      padding-left: 1rem;
-      margin-bottom: 0;
-    }
-  }
-
-  .valuesblock:nth-of-type(odd) {
-    .values-card {
-      background-color: $values-bg-light;
-    }
-  }
+.owl-carousel button.owl-dot {
+  width: 10px;
+  height: 10px;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin-left: 2px;
+  margin-right: 2px;
 }
 
-.service-card,
-.values-card {
-  img {
-    flex: none;
-  }
-  p:empty {
-    display: none;
-  }
-}
-
-.projects-listing-row {
-  @include media-breakpoint-down(sm) {
-    img {
-      margin-bottom: 2rem;
-    }
-  }
-
-  .project-listing-content {
-    @include media-breakpoint-up(md) {
-      padding-left: 45px;
-    }
-  }
-
-  &:last-of-type {
-    .projects-listing-divider {
-      display: none;
-    }
-  }
-
-  .projects-listing-divider {
-    hr {
-      border-top-width: 1px;
-      border-top-color: #eae9e9;
-      margin-bottom: 2rem;
-      margin-top: 2rem;
-    }
-
-  }
+button.owl-dot.active {
+  background-color: white;
 }
