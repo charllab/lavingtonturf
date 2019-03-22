@@ -26,7 +26,7 @@
     }
 
     label {
-       font-size: 90%;
+       font-size: 12px;
     }
 
     .gform_ajax_spinner {
@@ -174,4 +174,27 @@ input[type="file"] {
         margin-right: .5rem;
     }
 
+}
+
+// overrides
+
+.ginput_container {
+    padding-top: 10px;
+}
+.form-control,
+.ginput_container input,
+.ginput_container textarea,
+.ginput_container input,
+.ginput_container textarea {
+    font-size: 12px;
+    border-radius: 0;
+    border: none;
+}
+.btn-success,
+.gform_button {
+    background-color: #666600;
+    &:hover,
+    &:active {
+        background-color: darken(#666600, 3%);
+    }
 }

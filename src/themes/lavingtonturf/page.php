@@ -8,11 +8,17 @@ get_header();
             <div id="r7000" class="row ">
                 <div class="container container-fixed colsStack spr-page">
 
-                    <div class="col col-md-12 col-sm-12 col-lg-12">
-                        <img class="module image spr-image"
-                             src="<?php bloginfo('template_url'); ?>/images/lavington_turf_farms_ltd_27288fef_9529_252d_ec20_de02e045c9ee.jpg"
-                             alt="residential turf">
-                    </div><!-- col -->
+
+                    <?php if (get_field("header_image")): ?>
+
+                        <div class="col col-md-12 col-sm-12 col-lg-12">
+                            <img class="module image spr-image"
+                                 src="<?php echo the_field('header_image'); ?>"
+                                 alt="Banner image">
+
+                        </div><!-- col -->
+
+                    <?php endif; ?>
 
                     <div class="col col-sm-12 col-lg-8 col-md-8">
 
