@@ -2341,13 +2341,13 @@ body a:hover {
 #c7000 #m3295 > li {
     margin-bottom: 0;
 }
-#m7001,
-#m7003 {
-    max-width: 10%;
-    float: left;
-    margin-right: 8px;
-    margin-bottom: 100px;
-}
+/*#m7001,*/
+/*#m7003 {*/
+    /*max-width: 10%;*/
+    /*float: left;*/
+    /*margin-right: 8px;*/
+    /*margin-bottom: 100px;*/
+/*}*/
 .preamble {
     font-size: 16px;
     line-height: 1.4em;

@@ -11,11 +11,13 @@
     color: rgb(255, 255, 255);
     margin-top: 0;
   }
+
   .custom2 {
     font-size: 16px;
     padding-top: 3px;
     padding-bottom: 2px;
   }
+
   .preamble {
     margin-bottom: 0;
   }
@@ -51,6 +53,58 @@
 
   .spottext {
     line-height: 1.5;
+  }
+
+  .a-tdn {
+    a {
+      text-decoration: none;
+    }
+  }
+
+  .inline-icon {
+    max-width: 10%;
+    float: left;
+    margin-right: 8px;
+    margin-bottom: 100px;
+  }
+
+  .spr-testimonial-img {
+    border: 10px solid #666600;
+  }
+
+  .spr-btn-mb {
+    margin-bottom: 34px;
+  }
+
+  .spr-inpage-nav {
+    li {
+      a:hover,
+      a.active {
+        background-color: #cccc00 !important;
+      }
+    }
+  }
+  .spr-testimonial-txt {
+    a {
+      text-decoration: none;
+    }
+    p {
+      font-size: 14px;
+      line-height: 1.4em;
+    }
+  }
+  .spr-testimonial-txt-aside {
+    a {
+      text-decoration: none;
+    }
+    p {
+      font-size: 14px;
+      line-height: 1.4em;
+      @media (min-width: 768px) {
+        font-size: 12px;
+        line-height: 18px;
+      }
+    }
   }
 }
 
@@ -131,4 +185,27 @@
 
 button.owl-dot.active {
   background-color: white;
+}
+
+// Google Map
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+// Nav hacks
+.spr-active-tab {
+  background-color: #666600 !important;
+  color: white !important;
 }
