@@ -46,30 +46,27 @@ get_header(); ?>
 
                         </div>
                         <div class="col col-sm-12 col-lg-4 col-md-4">
-                            <div id="m7021" class="module text">
-                                <h2 class="custom2">See Our Testimonials</h2></div>
-                            <a class="imageModuleWrap" id="w_m7022"> <img id="m7022" class="module image"
-                                                                          src="<?php bloginfo('template_url'); ?>/images/06_help_1_grey.png"
-                                                                          alt="Question mark"/> </a>
+                            <h2 class="custom2">See Our Testimonials</h2>
+                            <a class="imageModuleWrap" id="w_m7022">
+                                <img id="m7022" class="module image"
+                                     src="<?php bloginfo('template_url'); ?>/images/06_help_1_grey.png"
+                                     alt="Question mark"/>
+                            </a>
                             <div class="module text">
                                 <p class="preamble">Do you want to know what our previous customers have to say about
                                     us?</p>
                             </div>
-                            <a id="m1570" class="module button" href="/testimonials" title="" role="button"
+                            <a id="m1570" class="module button" href="<?php echo esc_url(home_url('/')); ?>testimonials" title="" role="button"
                                data-track-event="click" data-track-action="internal_link_clicked"><i
                                         class="buttonIcon fa fa-caret-right"></i> Click Here</a>
-                            <div id="m4135" class="module text">
-                                <p class="custom2">Browse our Products & Services
-                                    <br>
-                                </p>
-                            </div>
+                            <h2 class="custom2">Browse our Products & Services</h2>
                             <a class="imageModuleWrap" id="w_m7024"> <img id="m7024" class="module image"
                                                                           src="<?php bloginfo('template_url'); ?>/images/15_ratings_1_grey.png"
                                                                           alt="Thumbs up"/> </a>
                             <div class="module text">
                                 <p class="preamble">Want to see all that we offer at Lavington Turf Farms?</p>
                             </div>
-                            <a id="m4553" class="module button" href="/products_and_services" title="" role="button"
+                            <a id="m4553" class="module button" href="<?php echo esc_url(home_url('/products-and-services')); ?>" title="" role="button"
                                data-track-event="click" data-track-action="internal_link_clicked"><i
                                         class="buttonIcon fa fa-caret-right"></i> Learn More</a></div>
                     </div>

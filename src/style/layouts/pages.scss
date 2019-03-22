@@ -11,6 +11,14 @@
     color: rgb(255, 255, 255);
     margin-top: 0;
   }
+  .custom2 {
+    font-size: 16px;
+    padding-top: 3px;
+    padding-bottom: 2px;
+  }
+  .preamble {
+    margin-bottom: 0;
+  }
 
   h4 {
     padding-left: 10px;
@@ -45,6 +53,8 @@
     line-height: 1.5;
   }
 }
+
+// ----- Owl-carousel -----
 
 .owl-carousel {
   margin-bottom: 10px;
