@@ -48,49 +48,6 @@
         <div class="col col-sm-12">
 
             <header>
-<!--                <div id="r4305" class="row row hidden-sm" data-req="">-->
-<!--                    <div class="container container-fixed ">-->
-<!--                        <div class="col col-lg-9 col-sm-8">-->
-<!--                            <div class="module emailshare" id="m1258" data-req="ext-https://www.google.com/recaptcha/api.js?render=explicit,emailshare">-->
-<!--                                <a href="#" class="sendicon" data-overlay-trigger="click" data-overlay-open="emailshare-m1258" role="button" data-track-event="click" data-track-action="internal_link_clicked"> <span></span> </a>-->
-<!--                                <div data-overlay-content="emailshare-m1258" style="display: none;" role="dialog" aria-describedby="overlaySubtitle">-->
-<!--                                    <p class="overlayTitle">Send to a friend</p>-->
-<!--                                    <p class="overlaySubtitle">Send the url of this page to a friend of yours</p>-->
-<!--                                    <form method="post" class="shareForm" data-track-action="page_share" onsubmit="return _monoEmailShare.handleForm(this);" data-url="?dm=m1258">-->
-<!--                                        <div class="field w100 ">-->
-<!--                                            <label for="m1258_senderName"></label>-->
-<!--                                            <input type="text" name="senderName" id="m1258_senderName" placeholder="Your name*" data-required="true" /> </div>-->
-<!--                                        <div class="field w100 ">-->
-<!--                                            <label for="m1258_senderEmail"></label>-->
-<!--                                            <input type="text" data-type="email" name="senderEmail" id="m1258_senderEmail" placeholder="Your email*" data-required="true" /> </div>-->
-<!--                                        <div class="field w100 ">-->
-<!--                                            <label for="m1258_recipientEmail"></label>-->
-<!--                                            <input type="text" data-type="email" name="recipientEmail" id="m1258_recipientEmail" placeholder="Your friend's email*" data-required="true" /> </div>-->
-<!--                                        <div class="hidden" tabindex="-1">-->
-<!--                                            <input type="text" id="spam_protection" name="spam_protection"> </div>-->
-<!--                                        <div class="g-recaptcha formcaptcha-m1258" data-sitekey="6LfnbmoUAAAAAKbjzRdpMrfoVrD468m9Si4mixNk"></div>-->
-<!--                                        <div id="errors_m1258"> </div>-->
-<!--                                        <input type="hidden" name="emailshare_m1258" value="1">-->
-<!--                                        <input type="submit" value="Submit"> </form>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                        <div id="c2933" class="col col-sm-1" data-req="">-->
-<!--                            <div id="m1413" class="module facebooklike" data-req="fbsdk">-->
-<!--                                <div class="fb-like" data-href="" data-layout="button" data-action="like" data-show-faces="" data-share=""></div>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                        <div id="c4350" class="col col-sm-1">-->
-<!--                            <div id="m3092" class="module googleplusone" data-req="ext-https://apis.google.com/js/platform.js">-->
-<!--                                <div class="g-plusone" data-href="" data-size="standard" data-annotation="bubble" data-width="450" data-align=""></div>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                        <div id="c3517" class="col col-sm-1">-->
-<!--                            <div id="m3270" class="module twittershare" data-req="twittersdk" data-track-action="twitter_tweet"> <a href="https://twitter.com/share" class="twitter-share-button" data-url="" data-via="" data-text="" data-size="" data-count="" data-hashtags="" data-lang="" data-track-event="click" data-track-action="link_clicked">Tweet</a> </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-                <!-- sharing ends -->
                 <div id="r5000" class="row " data-req="">
                     <div class="container container-fixed">
                         <div id="c5000" class="col col-md-5 col-sm-12 col-lg-5">
@@ -98,7 +55,7 @@
                                 <h1 class="mb-0 text-center">
                                     <a rel="home" href="<?php echo esc_url(home_url('/')); ?>"
                                        title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" itemprop="url">
-                                        <img src="<?php bloginfo('template_url'); ?>/images/lavington-turf-farms-logo2.png" alt="Lavington Turf Farms Ltd. logo"
+                                        <img src="<?php bloginfo('template_url'); ?>/images/logo.svg" alt="Lavington Turf Farms Ltd. logo"
                                              class="img-fluid navbar-main-logo">
                                         <span class="sr-only"><?php bloginfo('name'); ?></span>
                                     </a>

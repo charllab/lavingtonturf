@@ -210,3 +210,84 @@ button.owl-dot.active {
   background-color: #666600 !important;
   color: white !important;
 }
+
+$brand-green: #6abf4b;
+$brand-drk-green: #40683c;
+$brand-blue: #009ade;
+$brand-drk-blue: #003057;
+$brand-grey: #bcbec0;
+
+// brand-updates
+.navbar-main-logo {
+  max-width: 310px;
+  margin-bottom: 18px;
+  padding: 0 20px;
+  @media (min-width: 768px) {
+    margin-bottom: 28px;
+    padding: 0;
+  }
+}
+.spr-page h2 {
+  background-color: $brand-green;
+  color: $brand-drk-blue;
+}
+.button {
+  background-color: $brand-green;
+}
+#main-menu .active .nav-link {
+  background-color: $brand-green;
+}
+#main-menu .nav-link:hover {
+  background-color: $brand-green;
+}
+#main-menu .nav-link {
+  color: $brand-drk-blue;
+  border-color: #EDE4E4;
+}
+#c7000 #m3295 > li > a {
+  background-color: darken($brand-blue, 10%);
+}
+.spr-page .spr-inpage-nav li a:hover,
+.spr-page .spr-inpage-nav li a.active {
+  background-color: $brand-blue !important;
+}
+.spr-active-tab {
+  background-color: $brand-green !important;
+}
+.spr-page .spr-testimonial-img,
+.spr-page .spr-image {
+  border-color: white;
+}
+body {
+  min-width: 320px;
+}
+body p {
+  line-height: 2 !important;
+}
+body a {
+  color: $brand-green;
+}
+.custom1 {
+  line-height: 1.2em !important;
+}
+#m4655 {
+  margin-top: 100px;
+}
+#p7000 #r7000 {
+  background-color: #efefef;
+}
+#p7000 #r7000> .container {
+  background-color: $brand-drk-blue;
+}
+#r1923 {
+  border: none;
+}
+.custom1 a {
+  color: $brand-drk-blue;
+  font-weight: bold;
+}
+.brandfooter {
+  border-color: white;
+  background-color: white;
+  color: $brand-drk-blue;
+}
