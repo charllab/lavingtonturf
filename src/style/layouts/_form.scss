@@ -186,15 +186,13 @@ input[type="file"] {
 .ginput_container textarea,
 .ginput_container input,
 .ginput_container textarea {
-    font-size: 12px;
-    border-radius: 0;
     border: none;
 }
 .btn-success,
 .gform_button {
-    background-color: #666600;
-    &:hover,
-    &:active {
-        background-color: darken(#666600, 3%);
-    }
+  background-color: $brand-green;
+
+  &:hover {
+    background-color: darken($brand-green, 10%);
+  }
 }

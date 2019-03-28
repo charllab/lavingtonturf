@@ -1,0 +1,9 @@
+#r5000 {
+    background: none;
+}
+
+#r5000 > .container {
+    background: url(../images/header-background-alt.jpg) no-repeat;
+    background-size: cover;
+    background-position: top right;
+}

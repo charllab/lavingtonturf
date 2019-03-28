@@ -37,7 +37,6 @@
     padding-left: 10px;
     margin-bottom: 24px;
     margin-top: 0;
-    line-height: 18px;
   }
 
   li {
@@ -233,6 +232,10 @@ $brand-grey: #bcbec0;
 }
 .button {
   background-color: $brand-green;
+
+  &:hover {
+    background-color: darken($brand-green, 10%);
+  }
 }
 #main-menu .active .nav-link {
   background-color: $brand-green;
@@ -261,9 +264,7 @@ $brand-grey: #bcbec0;
 body {
   min-width: 320px;
 }
-body p {
-  line-height: 2 !important;
-}
+
 body a {
   color: $brand-green;
 }
@@ -283,8 +284,12 @@ body a {
   border: none;
 }
 .custom1 a {
-  color: $brand-drk-blue;
+  color: $white;
   font-weight: bold;
+
+  &:hover {
+    color: $white;
+  }
 }
 .brandfooter {
   border-color: white;

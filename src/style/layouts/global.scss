@@ -1,0 +1,42 @@
+*:focus {
+  outline: none;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-overflow-scrolling: touch;
+  height: 100%;
+  line-height: 1.7;
+  background: $white;
+  overflow-x: hidden;
+}
+
+// Responsive font sizing
+body {
+  font-size: 17px;
+}
+
+// Sets font size to 16px on form elements to prevent input zoom on mobile devices
+@include media-breakpoint-down(sm) {
+  .form-control {
+    font-size: $font-size-base * 1.075;
+  }
+}
+
+@include media-breakpoint-up(sm) {
+  body {
+    font-size: 18px;
+  }
+}
+
+/* Footer */
+
+.brandfooter {
+  color: #444;
+}
