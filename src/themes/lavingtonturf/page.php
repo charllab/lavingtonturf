@@ -76,20 +76,16 @@ get_header();
           <?php if (is_page([791, 794, 797])) : ?>
             <div id="c7000" class="col col-md-4 col-lg-4 col-sm-12">
 
-              <h2 class="custom2">Find Out More</h2>
-              <a class="imageModuleWrap" id="w_m7001">
-                <img id="m7001" class="module image inline-icon"
-                     src="<?php bloginfo('template_url'); ?>/images/04_contactus_1_grey.png "
-                     alt="Telephone "> </a>
+              <h2 class="custom2">Get A Quote</h2>
+
               <div class="module text ">
-                <p class="preamble">Questions about our services?</p>
-                <p class="preamble">We've got answers!</p>
+                <p class="preamble">Contact us today to receive a free quote for your turf project!</p>
               </div>
-              <a id="m1840" class="module button spr-btn-mb" href="<?php bloginfo('url'); ?>/contact"
+              <a id="m1840" class="module button spr-btn-mb" href="<?php bloginfo('url'); ?>/get-a-quote"
                  title=" "
                  role="button "
                  data-track-event="click" data-track-action="internal_link_clicked ">
-                <i class="buttonIcon fa fa-caret-right "></i> Call Us
+                Contact Us
               </a>
               <h2 class="custom2">Maintenance Information</h2>
               <a class="imageModuleWrap" id="w_m7003 ">
@@ -195,6 +191,9 @@ get_header();
               <div class="module text a-tdn">
                 <p><strong>Address</strong><br>
                   5770 Petworth Rd, Vernon, BC V1B&nbsp;3E4</p>
+                <p>
+                  Take a right on Park Lane off Hwy 6 and make the first left turn into the farm entrance, just past Petworth Rd.
+                </p>
                 <p><strong>Phone</strong><br>
                   Main: <a href="tel:250‑549‑2967">250‑549‑2967</a><br>
                   Toll Free: <a href="tel:1-800-453-8873">1‑800‑453‑8873</a>
@@ -203,6 +202,8 @@ get_header();
                   <a itemprop="email" class="casu-email" name="email"
                      href="mailto:lavingtonturffarms@shaw.ca">lavingtonturffarms@shaw.ca</a>
                 </p>
+                <h2>Hours of Operation</h2>
+                <p>Monday-Friday: 8:00 AM – 3:30 PM<br>Saturday 8:00 – 12:00 PM<br>Sunday and most holidays closed<br></p>
               </div>
               <div class="map-responsive">
                 <iframe
